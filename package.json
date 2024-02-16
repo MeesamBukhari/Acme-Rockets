@@ -1,0 +1,19 @@
+{
+  "name": "05-lesson-tailwindcss-config-and-deploy",
+  "version": "1.0.0",
+  "description": "This contains the code for the fifth lesson of the Tailwind CSS Project, in which I've studied regarding the CSS Config and Deployment.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css -- watch",
+    "prettier": "npx prettier --write ./build/*.html"
+  },
+  "keywords": [],
+  "author": "Meesam Bukhari",
+  "devDependencies": {
+    "license": "ISC",
+    "prettier-plugin-tailwindcss": "^0.5.11"
+  },
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.9"
+  }
+}
