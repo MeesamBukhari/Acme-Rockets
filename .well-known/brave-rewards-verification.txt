@@ -1,0 +1,4 @@
+This is a Brave Creators publisher verification file.
+
+Domain: acme-rockets-mb.vercel.app
+Token: 65c6e49d8f5778719a9d4ef1e10e21b1372417e7710d06401d2b50e3dd72101b
